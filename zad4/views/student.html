@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/student">Student</a>
+        <a href="/add_student">Add Student</a>
+        <a href="/users">Users</a>
+    </nav>
+    <h1>Student Page</h1>
+    <form action="/student" method="post">
+        <input type="text" name="firstName" placeholder="Imię"><br>
+        <input type="text" name="lastName" placeholder="Nazwisko"><br>
+        <input type="text" name="major" placeholder="Kierunek"><br>
+        <button type="submit">Add Student</button>
+    </form>
+</body>
+</html>
